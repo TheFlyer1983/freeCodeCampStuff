@@ -1,0 +1,1 @@
+{"index.js":"function sumAll(arr) {\n  // let min = Math.min( arr[0], arr[1]);\n  // let max = Math.max(arr[0], arr[1]);\n  // let sum = 0;\n  // for (let i = min; i <= max; i++){\n  //   sum = sum + i;\n  // }\n  // return sum;\n\n  let sum = (Math.max(...arr) - Math.min(...arr) + 1) * (Math.min(...arr) + Math.max(...arr)) / 2;\n  return sum;\n}\n\nsumAll([1, 4]);"}
